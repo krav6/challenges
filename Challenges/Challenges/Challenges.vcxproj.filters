@@ -30,6 +30,9 @@
     <ClInclude Include="TextTranspose.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MarkovAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,7 +42,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TextTranspose.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkovAlgorithm.cpp">
+      <Filter>Source Files\Solvers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

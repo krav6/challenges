@@ -3,12 +3,14 @@
 
 #include "stdafx.h"
 #include "TextTranspose.h"
+#include "MarkovAlgorithm.h"
 
 #include <iostream>
 
 int main()
 {
-	TextTranspose tr;
+	//TextTranspose tr;
+	MarkovAlgorithm mv;
 
 	int a;
 	std::cin >> a;
